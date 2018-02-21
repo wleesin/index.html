@@ -1,462 +1,127 @@
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">  
-    <title>Evadeee</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme-teea.css"/>
-    <link rel="stylesheet" type="text/css" href="css/font/font.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css" />                        
-    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
-    <!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->      
-    <script>
-        var ppUrl = "WV7RZMGZAD6TC"; // 20% off 2016SALE
-        //var ppUrl = "9R6QXAYSNU974";
-        var subUrl = "HU49WWA2RHZNS";
-        //var pwUrl = "http://psc2bol.com/exchange/evadeee";
-        var pwUrl = "http://pmw2bol.com/?product=evadeee";
-        var planSelect = 0;
-        var paymentSelect = 0;
-        var ppPrice = 39;
-        var ppCurrency = "&#8364;";
-        var pwPrice = 49;
-        var pwCurrency = "$";
-        var subPrice = 9;
-    </script>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orly - Bootstrap Coming Soon template</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-<body>                          
-<!-- BEGIN BODY -->
-<div id="container">
-    <header id="header">
-        <div class="cont-in">           
-            <nav class="mainNav">
-                <ul class="navBar" id="menu">
-                    <li><a href="http://activate.evadeee.com/" target="_blank">Activate</a></li>
-                    <li id="1" data-menuanchor="screen_1"><a href="#screen_1">Buy Now</a></li>
-                    <li id="2" data-menuanchor="screen_2"><a href="#screen_2">Download</a></li>
-                    <li id="3" data-menuanchor="screen_3"><a href="#screen_3">Features</a></li>
-                    <li><a href="http://docs.evadeee.com" target="_blank">Docs</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="screens" id="fullpage">
-        <div class="screen section screen_1" id="section1">
-            <div class="cont-in">
-                <div class="screen-cont">
-                    <a href="#" class="logo"><img src="images/logo.png" alt=""/></a>
-                    <div class="panes">
-                        <div class="pane1">
-                            <div class="text-height">
-                                <h2>Easily destroy your opponents by dodging every skillshot</h2>
-                                <div class="sec-text">
-                                    <!--<p>Evadeee is the most advanced evading script on the market with tons of complicated systems and algorithms behind it. <br/>Getting started only takes a few minutes.</p>-->
-                                    <!--<p>Evadeee is the most advanced evading script on the market. With a wide range of cutting-edge systems and algorithms, you'll be guaranteed to destroy your enemies.</p>-->
-                                    <!--<p>Evadeee is the most advanced evading script on the market. But don't let the complexity fool you, evasion is completely automated and getting started is just a few clicks away.</p>-->
-                                    <p>Evadeee is the most advanced evading script on the market. Dodging never has been easier - let Evadeee take care of it. Getting started is just a few clicks away.</p>
-                                </div>
-                            </div>
-                            <a href="#" class="btn btn-buy" id="fake">Buy now <img src="images/ico1.png" alt=""/></a>
-                        </div>
-                        <div class="pane2">
-                            <h2>Few more steps!</h2>
-                            <div class="buy-form">
-                                <div class="planchecks">
-                                    <input type="radio" name="selectPlan" id="plan-1" checked="checked"/><label for="plan-1">
-                                        <div class="plan-price">
-                                            <span class="teea-currency">&#8364;</span><span class="teea-amount"></span><span class="teea-sup">99</span>
-                                        </div>
-                                        <div class="plan-desc">
-                                            one time
-                                        </div>
-                                    </label>
-                                    <input type="radio" name="selectPlan" id="plan-2"/><label for="plan-2">
-                                        <div class="plan-price">
-                                            <span class="teea-currency">&#8364;</span><span class="teea-amount"></span><span class="teea-sup">99</span>
-                                        </div>
-                                        <div class="plan-desc">
-                                            per month
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="planDetails">
-                                    <div class="checks">
-                                        <div class="check" id="radcheck1"><input type="radio" name="rad" id="rad1" checked="checked" /><label for="rad1"><img src="images/pay1.png" alt=""/></label></div>
-                                        <div class="check" id="radcheck2"><input type="radio" name="rad" id="rad2" /><label for="rad2"><img src="images/pay2.png" alt=""/></label></div>
-                                    </div>
-                                    <div class="username" style="display:none;">
-                                        <input type="text" id="bolusername" placeholder="BOL USERNAME"/>
-                                        <input type="text" id="bolusername2" placeholder="CONFIRM USERNAME"/>
-                                        <div class="additionalinfo">
-                                            <img src="images/pay1.png" alt=""/>
-                                            <div class="error">Enter your username</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="#" class="btn btn-buy" id="purchase"><span>Buy now</span> <img src="images/ico1.png" alt=""/></a>
-                            </div>
-                            <p class="sm">By making this purchase you agree to the <a href="#" class="agree-link">public offer agreement.</a></p>
-                        </div>
-                    </div>
-                    <div class="agree-cov">
-                        <div class="agree">
-                            <a href="#" class="close"></a>
-                            <h5>PUBLIC OFFER AGREEMENT<br/>GRANTING THE RIGHT TO USE THE SOFTWARE PRODUCT</h5>
-                            <div class="pop-scroll">
-                                <ol>
-                                    <li>GENERAL PROVISIONS
-                                        <ol>
-                                            <li>Subject to Art. 437 of the Civil Code of the Russian Federation this document is meant for the individual, the user of the Website hereinafter referred to as ‘the User’ or ‘the Licensee’ and is an official public offer by the sole proprietor Dmitry Sagaydashniy (ИП Сагайдашный Дмитрий Александрович), hereinafter referred to as ‘the Licenser’ to enter into the agreement under the conditions listed below.</li>
-                                            <li>By making the payment as specified in section 5, art. 4.1 of the offer (Agreement) (art. 438 of the Civil Code of the Russian Federation) the User shall confirm full and unconditional acceptance of the public offer (Agreement).</li>
-                                            <li>By accepting the offer the User shall agree with the terms and conditions of the public offer and shall enter into the license agreement (hereinafter – the Agreement) on conditions specified in the public offer.</li>
-                                            <li>The agreement and relations arising thereof between the User and the Licenser, collectively referred to as ‘the Parties’, shall include the following terms and definitions inter alia
-                                                <ol>
-                                                    <li>Platform – a software product, which constitutes software and hardware means integrated into the Licenser’s Website for performing the algorithm of electronic commands for the software program chosen by the User and agreed upon with the Licenser;</li>
-                                                    <li>Administration’s Website/ the Website – the Licenser’s webpage located at evadeee.com and bolauth.com domains and their subdomains; </li>
-                                                    <li>Service – the range of services provided by the Licenser to the User through the Website;</li>
-                                                    <li>Login – the User’s name specified during the registration and to be stored in the Database;</li>
-                                                    <li>Database –  a database of the Users’ private data;</li>
-                                                    <li>Authorization Server -  server of the Licenser containing the Database;</li>
-                                                    <li>Authorization – a sequence of actions the User undertakes for self-identification by sending their identification data though the functions and the form of the Service to the Authorization Server.</li>
-                                                    <li>Order Page – the Licenser’s Website’s page, containing the public offer where the User can make license remuneration payment under the Agreement bringing into effect the acceptance of the offer;</li>
-                                                    <li>Activation Page – the Licenser’s Website page, which provides the User with the opportunity of entering their Activation Code and the Login through the Service’s functions for purposes of using the Platform;</li>
-                                                    <li>Activation Code – a system of symbols constituting a code, which together with the Login enable the User to access the Platform according to the License Agreement;</li>
-                                                </ol>
-                                            </li>
-                                            <li>By using the opportunity specified in art.1.2 of the public offer the User shall confirm that:
-<ol>
-<li>they are a capable natural person who entered the Agreement for their own benefit or act in the name and on behalf of the legal person they are representing;</li>
-<li>they have comprehensively read the terms and conditions of the Agreement;</li>
-<li>they accept all the terms and conditions of the Agreement without any waivers or limitations on their part and undertake to follow them;  </li>
-<li>they accept that the Agreement (including any of its parts) may be altered by the Licenser without any prior notice. New edition of the Agreement shall come into effect after it is posted at the Administration’s Website or made available by any other means unless otherwise provided for in the revised version of the Agreement.</li>
-<li>they possess all the necessary rights and authority to conclude the Agreement;</li>
-<li>they shall use the Service only for the purposes specified in the Agreement, follow its terms and conditions, applicable law and standard practices; </li>
-<li>they shall not perform any actions that come into conflict or interfere with the Service’s provision, the use of the Platform or operation of the equipment, networks or software, necessary for the Service’s provision, the Platform;</li>
-<li>their using the Service, the Platform for their purposes does not violate the Licenser’s or the third parties’ material and/or personal non-property rights, or  prohibitions and limitations set by the applicable law;</li>
-<li>they understand and accept that provisions of consumer legislation are not applicable to the Parties’ relations;   </li>
-<li>the Service and the Platform shall be provided ‘as is’, therefore there shall be no guarantee that: the Service and (or) the Platform shall meet their demands; the services acquired through the Platform shall be continuous, uninterrupted, fast, reliable or fail-safe; the quality of any products, goods, services, information or user materials acquired through using the Service, the Platform, shall fully meet their expectations.</li>
-        </ol>
 
-                                            </li>
-                                            <li>The use of the Service’s and Platform’s functional capabilities shall only be allowed according to the procedure and recommended practice established by the Licenser.</li>
-                                            <li>Technical, organizational and commercial terms of use of the Service and (or) the Platform including their functional capabilities shall be made available to the User through a special posting on the Website.</li>
-                                        </ol>
-                                    </li>
-                                    <li>SCOPE OF THE AGREEMENT
-                                        <ol>
-                                            <li>The Licenser shall empower the Licensee to make use of the result of their intellectual activity – the Platform according to the procedure specified in the Agreement, and the Licensee shall pay remuneration to the Licenser under the Agreement and shall follow Platform operation requirements.</li>
-                                            <li>The Licenser shall guarantee that they are a holder of sole right for the Platform. To identify the right to use the intellectual property item – the Platform, the Licenser shall make the Activation Code available to the Licensee by sending it to the Licensee’s e-mail address specified on the Order Page using the Service’s functions.</li>
-                                            <li>The Licensee shall be provided with a non-exclusive license according to the Agreement. The Licenser shall retain the right to grant licenses to other persons.</li>
-                                            <li>The License shall be effective until the termination of functional capabilities of the Platform’s active version and (or) until the Licensee receives from the Licenser a notification of its termination at any time and by any available means.</li>
-                                            <li>The Agreement shall come into effect after the acceptance of the public offer by the User as set forth by the public offer agreement.</li>
-                                        </ol>
-                                    </li>
-                                    <li>ARRANGEMENTS FOR USING THE INTELLECTUAL PROPERTY ITEM
-                                        <ol>
-                                            <li>The Licensee shall undertake not to use the Intellectual Property Item – the Platform in the following ways:
-                                                <ol>
-            <li>- in any illegal way or in the way that could violate any third-party rights; </li>
-            <li>- in the way that would harm third parties and (or) the Licenser during the use of the Platform;</li>
-            <li>- in the way as to violate the requirements of state authorities and right holders of property and non-property rights.</li>
-        </ol>                                           
-                                            </li>
-                                            <li>The Licenser shall provide the Licensee with the following documents necessary for using the Intellectual Property Item – the Platform: electronic User guidebook together with the Activation Code sent to the Licensee.</li>
-                                            <li>The Licensee shall not conclude sublicense agreement or in any way transfer the acquired Activation Code to third parties except for the case when granted such right by the Licenser through concluding a Supplementary Agreement after exchanging electronic documents, which would make the intention of the Parties evident and prove that the initiative comes from the Party to the Agreement.</li>
-                                        </ol>
-                                    </li>
-                                    <li>PROCEDURAL ARRANGEMENTS FOR PERFORMING OBLIGATIONS AND ENJOYING THE RIGHTS BY THE PARTIES
-                                        <ol>
-                                            <li>When concluding the Agreement according to art. 1.2 thereof the Licensee shall confirm the amount on the Order Page, which constitutes the amount of license remuneration, which they shall transfer to the Licenser’s current account through the payment gateway provided by the Service, after which the Licensee shall make the payment of license remuneration by settling the invoice generated by the corresponding payment service.</li>
-                                            <li>The transfer of the license remuneration funds to the Licenser’s settlement account by the Licensee shall be regarded as acceptance of the terms of the Agreement (Public Offer).</li>
-                                            <li>Upon the payment of license remuneration according to art. 4.2 of the Agreement the Licenser shall send the Licensee an electronic message to the electronic address submitted to the Service at the Order Page, which would contain the Activation Code and user guidelines specified in art. 3.2 of the Agreement.</li>
-                                            <li>The receipt of the Activation Code shall empower the Licensee to use the Platform according to the rules specified in the Licenser’s guidebook.</li>
-                                            <li>To access the Platform for the first time the Licensee shall go through authorization procedure on the Authorization Page by entering the Login and the Activation Code.</li>
-                                            <li>Upon the Licensee’s Authorization the Service shall enter the Licensee’s profile into the Database, which may also include other information about the Licensee for the purpose of their identification (IP address, payment service transaction code, etc.)</li>
-                                            <li>After the first Authorization by the Licensee subsequent authorization at the Platform may be performed in an automatic mode through identifying the Licensee against the profile contained in the Database.</li>
-                                            <li>The Platform update to the recent version, allowing its intended use shall be performed automatically by the Service’s functions or by the Licenser through using the technical capabilities of the Service.</li>
-                                        </ol>
-                                    </li>
-                                    <li>AMOUNT, TERM AND PAYMENT PROCEDURES OF LICENSE REMUNERATION
-                                        <ol>
-                                            <li>License remuneration amounts to 39.99 euros (or 9.99 euros for 30 days of access), VAT free*<br/>    *Transfer of rights for using intellectual property items specified in sub-paragraph 26 paragraph 2 article 149, Tax Code of the Russian Federation is VAT free.</li>   
-                                            <li>The Licensee shall pay license remuneration as a lump sum as set forth in art.4.1 of the Agreement.</li>
-                                            <li>In case the Licensee’s access to the Platform is disabled according to Art. 6.1.5 of the Agreement, the license remuneration shall not be refunded.</li>
-                                            <li>The Licensee shall make cashless settlements under the Agreement by transferring electronic currency units of the corresponding payment service amounting to the sum specified in art. 5.1 of the Agreement to the Licenser’s current account specified in the payment service.<br/>
-                                            The date of reception of the electronic currency units at the Licenser’s current account in the corresponding payment service shall be regarded as performing payment obligations by the Licensee.<br/>
-                                            Mutual settlements between the Parties may be made upon the mutual consent of the Parties on a non-cash basis in the Russian roubles at the rate of the Central Bank of the Russian Federation as from the date of the transaction.</li>
-                                        </ol>
-                                    </li>
-                                    <li>RIGHTS AND OBLIGATIONS OF THE PARTIES
-                                        <ol>
-                                            <li>The Licenser shall have the right to:
-                                                <ol>
-                                                    <li>Update software and hardware of the Website by temporarily suspending its operation.</li>
-                                                    <li>To fully or partially cease and (or) lockout the Licensee’s access to the Platform without notifying the Licensee during routine maintenance and at their own discretion in case there is evidence of the Licensee’s violation of their obligations or the legislation of the Russian Federation. </li>
-                                                    <li>To alter rights and obligations of the Parties to the Agreement at their own discretion.</li>
-                                                    <li>Provide supplementary services to the Licensee connected with the access to the Platform   subject to additional charges.</li>
-                                                    <li>In case of violation of the provisions specified in art.1.5 of the Agreement by the Licensee and (or) their obligations under the Agreement, and limitations set by the Agreement, the Licenser may lockout the Licensee’s access to the  Platform at their own discretion at any time and by any means including deleting the Licensee’s profile from the Database.</li>
-                                                </ol>
-                                            </li>
-                                            <li>The Licensee shall have the right to:
-                                                <ol>
-                                                    <li>Use only certified equipment for accessing the Service and the Platform.</li>
-                                                    <li>Use the active version of the Platform at any time according to the guidelines provided by the Licenser.</li>
-                                                    <li>Dissolve the Agreement upon seven days prior notice to the Licenser. The amount of the license remuneration paid shall not be refunded.</li>
-                                                </ol>
-                                            </li>
-                                            <li>The Licensee shall undertake:
-                                                <ol>
-                                                    <li>to perform their obligations and enjoy their rights under the Agreement according to the requirements specified in art. 1.5 of the Agreement.</li>
-                                                </ol>
-                                            </li>
-                                        </ol>
-                                    </li>
-                                    <li>LIABILITY OF THE PARTIES
-                                        <ol>
-                                            <li>The Parties shall be liable for non-fulfilment or improper fulfilment of their obligations under the Agreement subject to applicable legislation.</li>
-                                            <li>The Licenser shall disclaim any responsibility for proper functioning and operational performance of the Platform and for inability to use the Platform as intended in case of change in functional or software requirements to it  and (or) in case its operation was blocked by third parties.</li>
-                                            <li>In all the cases of failure to fulfil their obligations under the Agreement the Parties shall be liable subject to the legislation of the Russian Federation including but not limited to the liability specified in section VII of the Civil Code of the Russian Federation.</li>
-                                        </ol>
-                                    </li>
-                                    <li>FORCE MAJEURE
-                                        <ol>
-                                            <li>The Parties shall not be liable for non-fulfilment or improper fulfilment of their obligations under the Agreement in case their proper fulfilment proved impossible due to force majeure, i.e. extraordinary circumstances unavoidable under the given conditions such as: bans by regulatory authorities, civil unrest, epidemics, blockade, embargo, earthquakes, floods, fires or other natural disasters or demands by regulatory authorities.</li>
-                                            <li>In case any of such circumstances occur the Party shall notify the other Party about it within 7 (seven) days.</li>
-                                            <li>The document issued by the competent government body shall be regarded as sufficient evidence of force majeure occurrence and duration.</li>
-                                            <li>In case force majeure continues to have effect for more than 1 (one) year each of the Parties may unilaterally terminate the Agreement. The amount paid as license remuneration shall not be refunded.</li>
+<body>
 
-                                        </ol>
-                                    </li>
-                                    <li>AMENDMENTS AND TERMINATION OF THE AGREEMENT
-                                        <ol>
-                                            <li>The Agreement shall be concluded according to art. 1.2 thereof and shall remain in effect during the term of performance of contractual obligations by the Parties under the Agreement.</li>
-                                            <li>All amendments and modifications to the Agreement shall only be valid if made in the same form as the Agreement or other form pre-agreed by the Parties which would make the intention of the Parties evident and prove that the document comes from the Party to the Agreement.</li>
-                                        </ol>
-                                    </li>
-                                    <li>DISPUTE SETTLEMENT
-                                        <ol>
-                                            <li>All disputes arising from concluding, interpretation, fulfilment or termination of the Agreement shall be amicably settled by the Parties.</li>
-                                            <li>In case the Parties fail to reach an agreement during negotiations as specified in art.10.1 of the Agreement the Party concerned shall file a claim in written or electronic form.  The claim shall be forwarded by the means that allow registering its sending and receipt (by registered mail, telegraph, etc.) or handed out to the other Party against receipt.</li>
-                                            <li>The claims shall contain supplementary documents to base the concerned Party’s demands (in case the other Party does not have them) and the documents proving the authority of the signatory of the claim.  The documents shall be filed in the form of duly certified copies.  The claim filed without supplementary documents     proving the signatory’s authority shall be regarded as dormant claim and shall not be subject for consideration. </li>
-                                            <li>The Party recipient of the claim shall consider the claim and inform the concerned Party about the results within 10 business days after the receipt of the claim in writing.</li>
-                                            <li>In case the Parties fail to settle the dispute using the complaint procedure or in case the answer to the claim is not forwarded within the term specified in art. 10.4 of the Agreement the disputes shall be settled in a legal procedure subject to the legislation of the Russian Federation.</li>
-                                        </ol>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>                  
-                </div>
-                
-                <a href="#screen_2" class="scrollBottom link"></a>
-            </div>
+<!--header section -->
+<section class="banner" role="banner">
+  <div class="banner-area"> 
+    <!-- overlay -->
+    <div class="banner-area-gradient"></div>
+    <!-- overlay -->
+    <div class="inner-bg">
+      <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="banner-text text-center"> <a class="logo" href="#">Orly</a>
+            <h1>Coming soon</h1>
+            <!--Countdown -->
+            <div id="countdown"></div>
+            <!--Countdown --> 
+            <a href="#subscribes" class="btn">Notify me</a>
+            </p>
+          </div>
         </div>
-        
-        <div class="screen section screen_2" id="section2">
-            <div class="cont-in">
-                <div class="screen-cont">
-                    <div class="tellmemore">
-                        <h3>Tell me more!</h3>
-                        <div class="cols">
-                            <div class="col">
-                                <h6>What is evadeee?</h6>
-                                <p>The legendary evading script. Evadeee is in the business for almost two years already and it's still there for you!</p>
-                            </div>
-                            <div class="col">
-                                <h6>Is it smooth?</h6>
-                                <p>Hell yeah! It even runs around the skillshots and finds the optimal path while evading multiple skillshots at the same time.</p>
-                            </div>
-                            <div class="col">
-                                <h6>How human-like is it?</h6>
-                                <p>With "Humanizer" you can easily configure it the way you want it: set delays, different behavior during and after evading.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tellmemore2">
-                        <!--<h3>I'm interested!</h3>-->
-                        <div class="cols">
-                            <div class="col">
-                                <h6>Easy to use and setup</h6>
-                                <p>Evadeee got awesome default settings, but it's also easy to configure for your play style!</p>
-                            </div>
-                            <div class="col">
-                                <h6>24h Trial</h6>
-                                <p>A picture paints a thousand words. Just try it yourself and see how awesome this script is!</p>
-                            </div>
-                            <div class="col">
-                                <a href="http://docs.evadeee.com" target="_blank">
-                                <h6>Fully documented</h6>
-                                <p>Check out Evadeee Docs for full documentation and useful guides how to pwn your enemies!</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gettingstarted">
-                        <h3>How to get started?</h3>
-                        <div class="cols cols2">
-                            <div class="col">
-                                <img src="images/ico3.png" class="icon-left"/>
-                                <h5>Purchase</h5>
-                                <p>Acquire Evadeee</p>
-                            </div>
-                            <div class="col">
-                                <img src="images/ico4.png" class="icon-left"/>
-                                <h5>Activate</h5>
-                                <p>Enter your username</p>
-                            </div>
-                            <div class="col">
-                                <img src="images/ico5.png" class="icon-left"/>
-                                <h5>Download</h5>
-                                <p>Start owning</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="/dl/Evadeee.zip" class="btn btn-dowload">Download <img src="images/ico2.png" alt=""/></a>
-                </div>
-                <a href="#screen_3" class="scrollBottom link"></a>
-            </div>
-        </div>
-        
-        <div class="screen section screen_3" id="section3">
-                <div class="cont-in">
-                    <div class="blocks">
-                        <div class="teea-scroll">
-                            <div class="blockwrapper">
-                                <div class="block" id="block1">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Evading multiple skillshots</div>
-                                        <p>Linear, circular, conic, arc - Evadeee easily dodges them all. At the same time. Just like that.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block2">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Humanizer</div>
-                                        <p>A powerful set of tools to make your dodging as human-like as possible!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block" id="block3">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Smooth diagonal evading</div>
-                                        <p>No more robotic dodging! With pathfinding and anchor system it always takes the optimal evading path.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block4">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Movement control</div>
-                                        <p>Tired of stepping into skillshots? Evadeee will make your foe think that he missed even when it should've been a 100% hit (if not Evadeee of course).</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block" id="block5">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Handling dashes and blinks</div>
-                                        <p>Evadeee slightly adjusts the direction of your dashes and blinks to prevent you from getting inside dangerous areas!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block6">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Advanced anchor system</div>
-                                        <p>Dodge towards your movement destination, towards your current mouse cursor or away from the enemies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block" id="block7">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Insane customization</div>
-                                        <p>Customize it the way you want it! Nearly limitless possibilities.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block8">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Pathfinding</div>
-                                        <p>Evadeee pathfinds around dangerous areas even when you are not evading, finding optimal path while preventing you from entering skillshots.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block" id="block9">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Regular updates</div>
-                                        <p>Evadeee is being regularly updated. It constantly gets new awesome features!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block10">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Feature requests</div>
-                                        <p>You got awesome idea for Evadeee? Just request it via forums and I will make sure it will be implemented!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block" id="block11">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Reliability</div>
-                                        <p>We're in the business for almost 3 years and we're still here for you, providing awesome service!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blockwrapper">
-                                <div class="block right" id="block12">
-                                    <div class ="insideblock">
-                                        <div class="block-title">Support of multiple regions</div>
-                                        <p>Evadeee supports NA, EUW, EUNE, RU, LAN, LAS, BR, KR, CN, OCE, TR and so on.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <ul id="navigation">
-                <li><a href="#block1"></a></li>
-                <li><a href="#block2"></a></li>
-                <li><a href="#block3"></a></li>
-                <li><a href="#block4"></a></li>
-                <li><a href="#block5"></a></li>
-                <li><a href="#block6"></a></li>
-                <li><a href="#block7"></a></li>
-                <li><a href="#block8"></a></li>
-                <li><a href="#block9"></a></li>
-            </ul>
-            <footer id="footer">
-                <div class="cont-in">
-                    <div class="follow">
-                        <a href="http://forum.botoflegends.com/topic/8433-Evadeee" target="_blank"><img src="images/_follow_bol_2.png" alt=""/></a>
-                        <a href="http://www.twitter.com/WeeeOfficial" target="_blank"><img src="images/_follow_twitter.png" alt=""/></a>
-                        <a href="http://instagram.com/weeeofficial/" target="_blank"><img src="images/_follow_instagram.png" alt=""/></a>
-                    </div>
-                    <p>&copy; EVADEEE 2014-2016 – All Rights Reserved</p>
-                </div>      
-            </footer>
-        </div>  
+      </div>
     </div>
-</div>
-    
-<!-- BODY EOF   -->             
-    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>      
-    <script type="text/javascript" src="js/jquery-migrate.min.js" ></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js" ></script>
-    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-    <script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
-    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="js/custom.js" ></script>
+  </div>
+</section>
+<!--header section --> 
+<!--intro section -->
+<section id="intro" class="section intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="intro-content">
+          <h1>We'r forward-thinking agency to build amazing digital products.</h1>
+        </div>
+        
+        <!-- intro --> 
+      </div>
+      <div class="col-md-7  col-md-offset-1 col-sm-6">
+        <div class="intro-content">
+          <h2>Welcome to Orly</h2>
+          <p>Orly is a professional, unique and modern HTML template for a creative agency, portfolio or general business. It can be used as your Coming Soon Page while the main site is under construction.</p>
+        </div>
+        
+        <!-- intro --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!--intro section --> 
+<!--subscribe section -->
+<section id="subscribes" class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-5 subscribe-title">
+        <h2>Subscribe now.</h2>
+      </div>
+      
+      <!-- subscribe form -->
+      <div class="col-sm-12 col-md-7 subscribe-form"> 
+               
+        <form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
+          <input type="text" name="email" placeholder="Enter your email address to get notified" id="subemail" />
+          <input type="submit" name="send" value="Notify me" id="subsubmit" class="btn2" />
+        </form>
+        
+        <!-- subscribe message -->
+        <div id="mesaj"></div>
+        <!-- subscribe message --> 
+      </div>
+      <!-- subscribe form --> 
+    </div>
+  </div>
+</section>
+<!--subscribe section --> 
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col col-md-5">
+        <p>Copyright © 2015 Orly Inc. All Rights Reserved.</p>
+        <p> Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+      </div>
+      <div class="footer-col col-md-7">
+        <ul class="footer-share">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- footer top --> 
+  
+</footer>
+<!-- Footer section --> 
+
+<!-- JS files--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.backstretch.min.js"></script> 
+<script src="js/jquery.countdown.js"></script> 
+<script type="text/javascript" src="js/jquery.subscribe.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>
